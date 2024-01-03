@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    color: #333;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-image: url("wood-texture.jpg"); 
+    background-size: cover;
+    border: 10px solid #555;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.doura {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 5px solid #555;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.red-piece {
+    background-color: #e53935;
+}
+
+.yellow-piece {
+    background-color: #f9a825;
+}
+#winner {
+    color: #28a745; 
+  }
